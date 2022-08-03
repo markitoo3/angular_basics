@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+  
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* CSS RESET */
+
+
+.menu {
+    position: relative;
+    padding: 1px;
+    min-height: 70px;
+    background-color: aliceblue;   
+}
+
+.navigation-links {
+    display: block;
+    width: 70%;
+    margin: 1% auto;
+}
+
+.navigation-links a {
+    display: inline-block;
+    margin: 0 1%;
+    padding: 5px;
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+}
+
+.navigation-links a:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+.social-icons {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+
+.social-icons div {
+    margin: 0 1%;
+    padding: 2px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 85%;
+}
+
+.facebook, .instagram, .mail {
+    border: 1px solid cornflowerblue;
+}
+
+/* FEATURES SECTION */
+
+.features-section>* {
+    margin: 1% auto;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    min-height: 150px;
+    width: 30%;
+    color: wheat;
+}
+
+.search-container,
+.ad-container,
+.registration-container {
+    display: inline-block;
+}
+
+.features-section .feature-text {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.features-section .features-icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 2% auto;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.features-icon img {
+    width: 75%;
+}
+
+.search-container {
+    background-color: teal;
+    margin-left: 3rem;
+}
+
+.registration-container {
+    background-color: mediumseagreen;
+}
+
+.ad-container {
+    background-color: mediumpurple;
+}
+
+/* FORM SECTION */
+
+.registration-form-container {
+    margin: 1% auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.registration-form {
+    margin: 30px auto;
+    padding: 30px;
+    width: 60%;
+    height: 600px;
+    background-color: rgb(177, 216, 218);
+    box-shadow: 2px 2px 6px 1px rgb(133, 163, 165);
+    border-radius: 5px;
+}
+
+
+.registration-form input {
+    margin: 5px auto;
+    background-color: aliceblue;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.registration-form
+label,
+input,
+small {
+    display: block;
+    margin: 20px auto;
+}
+
+.registration-form small {
+    display: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: brown;
+}
+
+.registration-send-button {
+    margin-top: 50px;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    margin-top: 2rem;
+    padding: 1px;
+}
+
+footer h5 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: whitesmoke;
+}
